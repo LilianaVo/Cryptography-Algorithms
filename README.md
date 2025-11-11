@@ -2,10 +2,10 @@
 
 ## Créditos
 
-**Materia:** Criptografía
-**Profesor:** Dr. Alfonso Francisco De Abiega L Eglisse
-**Institución:** Facultad de Ingeniería UNAM.
-**Semestre:** 2026-1
+* **Materia:** Criptografía
+* **Profesor:** Dr. Alfonso Francisco De Abiega L Eglisse
+* **Institución:** Facultad de Ingeniería UNAM.
+* **Semestre:** 2026-1
 
 **Integrantes del equipo:**
 
