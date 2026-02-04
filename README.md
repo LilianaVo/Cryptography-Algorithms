@@ -1,87 +1,65 @@
-# Criptografía 
+<div align="center">
 
-## Créditos
+# Classic Cryptography Algorithms
 
-* **Materia:** Criptografía
-* **Profesor:** Dr. Alfonso Francisco De Abiega L Eglisse
-* **Institución:** Facultad de Ingeniería UNAM.
-* **Semestre:** 2026-1
+### Implementation of historical encryption ciphers for cryptanalysis study.
 
-**Integrantes del equipo:**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Security](https://img.shields.io/badge/Security-Cryptanalysis-red?style=for-the-badge)
 
-* Roja Mares Luis Iván
-* Lee Obando Ileana Verónica
+[View Code] • [Report Bug] • [Request Feature]
 
-## Descripción general de implementación de algoritmos clásicos de cifrado
+</div>
 
-El presente repositorio contiene la implementación y análisis de diversos **algoritmos clásicos de cifrado**, desarrollados como parte de la asignatura **Criptografía**.
-El objetivo principal es comprender el funcionamiento de los métodos tradicionales de encriptación simétrica y su relevancia histórica en el desarrollo de los sistemas modernos de seguridad de la información.
+---
 
-Cada algoritmo fue implementado en el lenguaje **Python**, priorizando la claridad en la lógica de cifrado y descifrado, así como la facilidad para realizar pruebas con diferentes entradas y claves.
+## Overview
 
-## Objetivos de aprendizaje
+This repository contains the implementation and mathematical analysis of **Classic Encryption Algorithms**, developed to understand the foundations of modern information security.
 
-* Comprender los principios fundamentales de los cifrados clásicos.
-* Aplicar conocimientos de matemáticas (álgebra lineal y modular) en el ámbito criptográfico.
-* Identificar las debilidades de los sistemas de cifrado histórico.
-* Reconocer la evolución de los métodos de encriptación hasta los modelos modernos.
+The project explores symmetric encryption techniques, focusing on polyalphabetic and substitution ciphers. It serves as a practical study of how historical methods laid the groundwork for contemporary cryptosystems like AES and RSA.
 
+**Key Concepts Applied:**
+* **Modular Arithmetic:** fundamental for shift ciphers like Caesar and Vigenère.
+* **Linear Algebra:** Matrix operations (determinants and modular inverses) applied in the Hill Cipher.
+* **Bitwise Operations:** XOR logic implementation for the Vernam Cipher (One-Time Pad).
 
-## Algoritmos
+---
 
-### 2.1 Cifrado César
+## Academic Context
 
-### 2.2 Cifrado Vigenère
+This project was developed for the **Cryptography** course at the **National Autonomous University of Mexico (UNAM)**.
 
-### 2.3 Cifrado Hill
+| **Course Information** | **Details** |
+| :--- | :--- |
+| **University** | Universidad Nacional Autónoma de México (UNAM) |
+| **Faculty** | **Facultad de Ingeniería (FI)** |
+| **Course** | Criptografía (Cryptography) |
+| **Professor** | Dr. Alfonso Francisco De Abiega L Eglisse |
+| **Semester** | 2026-1 |
 
-### 2.4 Cifrado Playfair
+---
 
-### 2.5 Cifrado Vernam
+## 🛠️ Implemented Algorithms
 
-### 2.6 Máquina Enigma
+The repository includes the source code for the following ciphers, using **Python** for high-level logic and **C** for memory-efficient processing:
 
-Además de los algoritmos anteriores, se incluye un **reporte explicativo** sobre la **Máquina Enigma**, dispositivo mecánico de cifrado utilizado por Alemania durante la Segunda Guerra Mundial.
+| Algorithm | Language | Description | Type |
+| :--- | :---: | :--- | :--- |
+| **Caesar Cipher** | **C** | Shift cipher based on modular arithmetic `(x + k) mod 26`. | Substitution |
+| **Vigenère Cipher** | **C** | Polyalphabetic substitution using a keyword to shift letters. | Polyalphabetic |
+| **Hill Cipher** | **Python** | Matrix-based cipher using linear algebra `(K * P) mod 26`. | Block Cipher |
+| **Playfair Cipher** | **Python** | Digraph substitution using a 5x5 key matrix. | Substitution |
+| **Vernam Cipher** | **Python** | The theoretical "unbreakable" cipher using XOR operations. | Stream Cipher |
 
+---
 
-## Estructura del repositorio
+## Getting Started
 
-```
-📂 Criptografia/
-├── cesar/
-│   └── cesar.py
-├── vigenere/
-│   └── vigenere.py
-├── hill/
-│   └── hill.py
-├── playfair/
-│   └── playfair.py
-├── vernam/
-│   └── vernam.py
-└── reportes/
-    └── Maquina_Enigma.pdf
-```
-
-Cada subcarpeta contiene el código fuente correspondiente a un algoritmo, junto con comentarios descriptivos y ejemplos de uso.
-
-
-##  Requisitos y entorno de ejecución
-
-* **Lenguaje:** Python 3.x
-* **Librerías necesarias:**
-
-  * `numpy` (para operaciones matriciales en el cifrado Hill)
-  * `string`
-  * `random`
-
-Instalación de dependencias:
-
-```bash
-pip install numpy
-```
-
-Ejecución de un ejemplo:
-
-```bash
-python hill.py
-```
+### Prerequisites
+* **Python 3.x** (for `.py` files)
+* **GCC Compiler** (for `.c` files)
+* **NumPy** (required for Hill Cipher matrix operations):
+  ```bash
+  pip install numpy
