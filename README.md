@@ -38,7 +38,7 @@ This project was developed for the **Cryptography** course at the **National Aut
 | **Course** | Cryptography |
 | **Professor** | Dr. Alfonso Francisco De Abiega L Eglisse |
 | **Semester** | 2026-1 |
-| **Group** | 01 |
+| **Group** | 02 |
 
 ---
 
@@ -65,11 +65,7 @@ The repository includes the source code for the following ciphers, using **Pytho
   ```bash
   pip install numpy
 
-## Compiling and Running C Code (e.g., Caesar Cipher)
-
-You need a GCC compiler installed to run the .c files.
-
-# Compile the C file and run the executable
+## Compile the C file and run the executable
 
 ```bash
 gcc CifradoCesar.c -o cesar
