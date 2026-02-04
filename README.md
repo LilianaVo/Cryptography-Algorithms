@@ -63,3 +63,22 @@ The repository includes the source code for the following ciphers, using **Pytho
 * **NumPy** (required for Hill Cipher matrix operations):
   ```bash
   pip install numpy
+
+## Compiling and Running C Code (e.g., Caesar Cipher)
+
+You need a GCC compiler installed to run the .c files.
+
+# Compile the C file
+gcc CifradoCesar.c -o cesar
+
+# Run the executable
+./cesar
+
+## Contributors & Development Team
+
+* **Ileana Verónica Lee Obando** 
+* **Luis Iván Rojas Mares**
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
