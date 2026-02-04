@@ -34,8 +34,8 @@ This project was developed for the **Cryptography** course at the **National Aut
 | **Course Information** | **Details** |
 | :--- | :--- |
 | **University** | Universidad Nacional Autónoma de México (UNAM) |
-| **Faculty** | **Facultad de Ingeniería (FI)** |
-| **Course** | Criptografía (Cryptography) |
+| **Faculty** | **Faculty of Engineering** |
+| **Course** | Cryptography |
 | **Professor** | Dr. Alfonso Francisco De Abiega L Eglisse |
 | **Semester** | 2026-1 |
 
